@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <link rel="stylesheet" href="A4.css">
+        <script src="A4.js"></script>
+    </head>
+    <body>
+        <h1><center>Form</center></h1>
+        <div class="container">
+        <form name="myForm" id="myForm" onsubmit="return validateForm()" onsubmit="return myFunction()">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="first name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="last name..">
+
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" placeholder="Write something.." style="height:100px"></textarea>
+
+            <label for="state">State</label>
+            <select id="state" name="state">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select>
+
+            <label for="phone">Phone number</label><br>
+            <input type="number" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <small>Format: 123-456-7890</small><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        </div>
+    </body>
+</html>

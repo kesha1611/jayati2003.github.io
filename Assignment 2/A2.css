@@ -1,0 +1,70 @@
+table, th, td 
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    padding: 5px;
+    text-align: left;
+}
+
+img
+{
+    float: right;
+    padding-bottom: 20px;
+}
+
+h2
+{
+    text-align: center;
+    color: lawngreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a
+{
+    background-color: black;
+    color: darkslateblue;
+    font-family: cursive;
+}
+
+.b
+{
+    background-color: black;
+    color: orange;
+}
+
+.c
+{
+    background-color: black;
+    color: red;
+}
+
+#d
+{
+    color: dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#e
+{
+    background-color: rgb(104, 178, 240);
+    color: black;
+    padding: 40px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.f
+{
+    background-color: black;
+    color: gold;
+}
+
+.g
+{
+    color: hotpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

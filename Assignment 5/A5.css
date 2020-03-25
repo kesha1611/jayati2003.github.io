@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(29, 77, 179);
+}
+
+.container{
+    margin: 30px 200px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+    position: relative;
+}
+
+.header{
+    font: bold 45px Monotype Corsiva;
+    font-family: cursive;
+    padding: 20px;
+}
+
+#workshop label{
+    margin: auto 50px;
+    display: block;
+    font: normal 18px Calibri;
+    color: gray;
+}
+
+#workshop input, select{
+    margin: 22px auto;
+    border: none;
+    border-bottom: 1px solid rgb(60, 60, 60);;
+    color: black;
+    background-color: rgb(245, 245, 245);
+    width:350px
+}
+
+#workshop table td{
+    margin: auto 50px;
+}
+
+.details p{
+    font: normal 17px Calibri;
+    padding: 7px 30px;
+    color: rgb(39, 38, 38);
+    text-align: justify;
+}
+
+.topic{
+    color: rgb(29, 77, 179);
+}
+
+.register{
+    background-color: rgb(92, 88, 94);
+    color: white;
+    padding: 20px;
+    font: normal 22px Calibri;
+    margin: 10px 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.register:hover{
+    background-color: rgb(65, 62, 66);
+    color: white;
+    cursor: pointer;
+}
+
+.registered{
+    font: normal 18px Calibri;
+    margin: 10px 20px;
+    color: rgb(39, 38, 38);
+    padding: 10px;
+}
+
+.registered a{
+    color: rgb(29, 77, 179);  
+}
+
+.registered a:hover{
+    color: rgb(18, 44, 102);
+} 
+
+.inside{
+    float: right;
+    margin-right: 50px;
+}
+
+.inside td{
+    text-align: center;
+    margin: auto;
+}
+
+.btn{
+    background-color: rgb(92, 88, 94);
+    color: white;
+    padding: 10px;
+    border: none;
+    font: normal 18px Calibri;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(65, 62, 66);
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font: normal 14px Calibri;
+    color: #808080;
+    text-align: right;
+}
+
+#dis{
+    margin: auto 20px;
+}
+
+#dis td{
+    padding: 6px;
+    font: normal 18px Calibri;
+}
+
+.header p{
+    margin: 10px;
+    font: normal 22px Arial;
+    color: rgb(29, 77, 179);
+    padding-left: 350px;
+}
